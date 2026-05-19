@@ -1,0 +1,12 @@
+# ~/.codex/config.toml
+# Configuração básica para Codex CLI no Linux/Ubuntu.
+#
+model = "gpt-5.3-codex"
+model_reasoning_effort = "medium"
+model_reasoning_summary = "auto"
+model_verbosity = "medium"
+
+#  approval_policy = "untrusted"
+#  sandbox_mode = "workspace-write"
+
+personality = "pragmatic"
