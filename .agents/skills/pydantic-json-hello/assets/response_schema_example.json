@@ -1,0 +1,8 @@
+{
+  "message": "Hello, World!",
+  "calculation": {
+    "expression": "2 + 2",
+    "result": 4
+  },
+  "status": "success"
+}

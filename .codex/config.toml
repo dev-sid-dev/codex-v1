@@ -10,3 +10,7 @@ model_verbosity = "medium"
 #  sandbox_mode = "workspace-write"
 
 personality = "pragmatic"
+
+# Faz o Codex também procurar por CLAUDE.md
+# quando não encontrar AGENTS.override.md ou AGENTS.md
+# project_doc_fallback_filenames = ["CLAUDE.md"]

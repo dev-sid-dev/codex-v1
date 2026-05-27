@@ -1,0 +1,12 @@
+Use the pydantic-json-hello skill.
+
+Modify my current Python Hello World script so that instead of printing plain text, it returns a structured JSON response validated with Pydantic v2.
+
+Requirements:
+- Keep main() -> int.
+- Keep raise SystemExit(main()).
+- Use BaseModel.
+- Use a nested model for the calculation object.
+- The output must match the schema from the skill asset response_schema_example.json.
+- Print the final JSON using model_dump_json(indent=2).
+- After modifying the code, run the validation script from the skill.
